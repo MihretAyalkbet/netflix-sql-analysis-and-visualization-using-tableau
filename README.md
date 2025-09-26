@@ -10,7 +10,7 @@ I’m just starting this project, so the repository currently contains the datas
 - Visualize insights using **Tableau**
 - Learn and practice **data analytics workflow**
 
-## Dataset
+## Dataset( In case the data set is too large to be opened )
 The dataset is from Kaggle: [Netflix Movies & TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 ## Repository Structure
