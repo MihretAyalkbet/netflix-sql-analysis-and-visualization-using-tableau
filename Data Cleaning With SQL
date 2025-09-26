@@ -1,24 +1,15 @@
-## 1. Data Cleaning & Transformation (Netflix Dataset)
 
-- **Table Creation:** Create a cleaned version of the raw Netflix dataset.  
-- **Handling Missing Values:**  
-  - Replace `NULL` values in `Director`, `Cast`, and `Country` with `'Unknown'`.  
-  - Standardize `Rating`:  
-    - If `Rating` is `NULL` → `'Unknown'`  
-    - Otherwise → convert to uppercase and replace spaces with hyphens.  
-- **Date Processing:**  
-  - Convert `Date_Added` to `DATE`.  
-  - Extract the year from `Date_Added` as `Year_Added`.  
-- **Duration Transformation:**  
-  - Extract numeric values from `Duration`.  
-  - Create two new fields:  
-    - `Duration_Number` → numeric part (e.g., 90, 2).  
-    - `Duration_Type` → whether it’s in *Minutes* or *Seasons*.  
-- **Final Output:**  
-  - Data is grouped by all key columns.  
-  - Sorted by `Date_Added` in descending order.  
+-- ############################################################
+-- FILE: data_setup.sql
+-- PURPOSE: Clean and transform Netflix dataset for analysis
+-- AUTHOR: Mihret Ayalkbet
+-- DATE: 2025-09-26
+-- ############################################################
 
-```sql
+-- Drop the table if it already exists
+DROP TABLE IF EXISTS netflix_cleaned;
+
+-- Create a cleaned Netflix table
 CREATE TABLE netflix_cleaned AS
 SELECT
     Title,
