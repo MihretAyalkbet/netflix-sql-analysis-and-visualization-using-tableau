@@ -24,7 +24,7 @@ The dataset is from Kaggle: [Netflix Movies & TV Shows](https://www.kaggle.com/d
 - Expand README with insights
 ## 📊 Data Visualization
 Check out my interactive Tableau dashboard here:  
-👉 [Tableau Dashboard](https://public.tableau.com/views/YourDashboardLinkHere)
+👉 [Tableau Dashboard](https://public.tableau.com/views/Book1_17589597341800/Netflixs?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 ## Author
