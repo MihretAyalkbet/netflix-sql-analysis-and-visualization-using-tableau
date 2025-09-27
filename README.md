@@ -14,8 +14,8 @@ I’m just starting this project, so the repository currently contains the datas
 The dataset is from Kaggle: [Netflix Movies & TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 ## Repository Structure
-- `data/` → Raw dataset (`netflix_raw.csv`)
-- `sql/` → SQL scripts to create and prepare the table (`data_setup.sql`)
+- `data/` → Raw dataset (`netflix_titles.csv`)
+- `sql/` → SQL scripts to create and prepare the table (`netflix_data_cleaning.sql`)
 - `README.md` → Project description
 
 ## Next Steps (Work in Progress)
